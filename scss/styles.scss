@@ -1,4 +1,87 @@
-.menu{
-    color: red;
+.menu {
+    font-family: serif;
+    font-size: 25px;
+    font-style: italic;
+    background-color: #7cdccc;
+    text-decoration: none;
+    text-align: center;
+    border: 1000px;
+    display: flexbox;
+    li {
+        display: inline-block;
+        padding-bottom: 23px;
+        color: #fff;
+    }
+}
 
+
+.titulo {
+    color: rgb(3, 2, 85);
+    font-size: 28px;
+    text-align: center;
+    background-color: #649cfc c;
+}
+
+.parrafoGeneral p {
+    width: 300px;
+    color: blue;
+    display: flexbox;
+    justify-content: center;
+    padding: 30px;
+}
+
+.imaagenesServicios {
+    width: 100px;
+    height: 300px;
+
+}
+
+.imaagenesServicios img {
+    width: 100px;
+}
+
+
+
+
+.servicios {
+    color: tomato;
+    display: grid;
+    grid-template-columns: 20fr 20fr 20fr 20fr;
+    grid-template-rows: 40fr 40fr 40fr 40fr;
+
+
+
+}
+
+.fondoFooter {
+    background-color: #7cdccc;
+    text-align: center;
+
+}
+
+.imagenesHijas {
+    display: grid;
+    grid-template-columns: 20fr 20fr 20fr;
+    grid-template-columns: 40fr 40fr 40fr;
+}
+
+@media screen and (max-width:500px) {
+    .servicios {
+        grid-template-columns: 20fr 20fr 20fr 20fr;
+        grid-template-rows: 40fr 40fr 40fr 40fr;
+
+
+
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .imagenesHijas {
+        display: grid;
+        grid-template-columns: 20fr 20fr 20fr;
+        grid-template-columns: 40fr 40fr 40fr;
+
+
+    }
 }
