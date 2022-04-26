@@ -40,7 +40,7 @@
 }
 
 .imaagenesServicios img {
-    width: 100px;
+    width: 10px;
 }
 
 
@@ -48,19 +48,29 @@
 
 .servicios {
     text-align: center;
-    color: tomato;
+    color: rgb(21, 59, 182);
     display: grid;
     grid-template-columns: 20fr 20fr 20fr 20fr;
-    grid-template-rows: 40fr 40fr 40fr 40fr;
+    grid-template-rows: 10fr 10fr 10fr 10fr;
+}
 
-
-
+.imagenesServicios{
+    width: 10px;
+    height: 100px;
+    text-align: center;
+    color: rgb(83, 55, 50);
+    display: grid;
+    
 }
 
 .fondoFooter {
     background-color: #7cdccc;
     text-align: center;
 
+
+}
+.fondoFooter img{
+    text-align: left;
 }
 
 .imagenesHijas {
@@ -88,4 +98,14 @@
 
 
     }
+}
+
+.formulario{
+    width: 600px;
+    height: 500px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    display: grid;
+ 
+
 }
