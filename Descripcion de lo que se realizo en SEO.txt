@@ -1,0 +1,9 @@
+Se agregaron estas keywords:  "consultoria, informatica, desarrollo, arquitectura, TI, IT, soporte, mesa de ayuda, ">
+
+se agregaron estas description a cada pagina:
+
+index: " content="somos los aliados tecnologicos para su negocio"> 
+clientes: "conoce quienes son nuestros clientes "
+contactenos: "Nos puedes contactar por estos medios"
+nosotros: "te contamos un poco de nosotros "
+servicios "conoce los servicioscon los que seremos tus aliados"

@@ -85,3 +85,18 @@
 
     }
 }
+
+ /*Map*/
+
+ $servicios: (
+    Desarrollo: #55acee
+    Arquitectura: #3a5795
+    Infraestructura: blue
+    Soporte_Tecnico: red
+);
+
+@each $servicio, $color, $servicios, {
+    .servicios--#{$servicio}
+        background-color: $color;
+    
+}
